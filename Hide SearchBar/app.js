@@ -8,5 +8,5 @@
     Linkedin :  www.linkedin.com/in/tanvirjisn
 */
 const title = document.title = 'Hide Search Bar';
-
-document.querySelector('main h1').textContent = title;
+const h1 = document.querySelector('main h1');
+h1 ? h1.textContent = title : document.querySelector('body').textContent = "No Title";
