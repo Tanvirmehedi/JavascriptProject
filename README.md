@@ -10,6 +10,9 @@ Project 4 = todo-app-with-dom
 
 Project 5 = Javascript Calculator
 
+Project 6 = Hide SearchBar
+
+
 Blank project That Make Empty Template With Html ,Css ,Javascript !
 
 Creator : Tanvir Jishan,
