@@ -1,42 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
-*,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root {
-    --nav-font: 'Zen Dots', cursive;
-    --body-font: 'Noto Serif', serif;
+html,
+button,
+div,
+body,
+html::after,
+html::before,
+button::before,
+button::after,
+div::after,
+div::before,
+body::after,
+body::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 ol,
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    overflow-x: hidden;
-    line-height: 1.5;
-    font-family: var(--body-font);
+  overflow-x: hidden;
+  line-height: 1.5;
 }
 
 main {
-    display: flex;
-    min-height: 100vh;
-    background-color: gray;
-    color: #fff;
-    padding: 0 1rem;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  min-height: 100vh;
+  background-color: gray;
+  color: #fff;
+  padding: 0 1rem;
+  align-items: center;
+  justify-content: center;
 }
