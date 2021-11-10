@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
 *,
 *::after,
 *::before {
@@ -8,8 +8,8 @@
 }
 
 :root {
-  --nav-font: 'Zen Dots', cursive;
-  --body-font: 'Noto Serif', serif;
+  --nav-font: "Zen Dots", cursive;
+  --body-font: "Noto Serif", serif;
 }
 
 ol,
@@ -24,7 +24,7 @@ a {
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 80.5%;
 }
 
 body {
